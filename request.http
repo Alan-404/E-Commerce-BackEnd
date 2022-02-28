@@ -1,0 +1,386 @@
+get http://localhost:8000/role/role_api
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwicm9sZSI6MSwiY3JlYXRlZF9hdCI6IjIwMjItMDItMTMgMDk6MTA6NDAuMTk1MDgyIn0.RTAUTlN6TXRhXFwUjfyETOdtFU3GiAaeliJv-2_dLuk
+
+
+###
+GET http://localhost:8000/distributor/distributor_api
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwicm9sZSI6MSwiY3JlYXRlZF9hdCI6IjIwMjItMDItMTMgMDk6MTA6NDAuMTk1MDgyIn0.RTAUTlN6TXRhXFwUjfyETOdtFU3GiAaeliJv-2_dLuk
+
+###
+POST http://localhost:8000/distributor/distributor_api
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwicm9sZSI6MSwiY3JlYXRlZF9hdCI6IjIwMjItMDItMTMgMDk6MTA6NDAuMTk1MDgyIn0.RTAUTlN6TXRhXFwUjfyETOdtFU3GiAaeliJv-2_dLuk
+
+{
+    "name": "NIKE",
+    "user_id": "5"
+}
+
+###
+PUT http://localhost:8000/distributor/distributor_api
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwicm9sZSI6MSwiY3JlYXRlZF9hdCI6IjIwMjItMDItMTMgMDk6MTA6NDAuMTk1MDgyIn0.RTAUTlN6TXRhXFwUjfyETOdtFU3GiAaeliJv-2_dLuk
+
+{
+    "id": "1",
+    "name": "ASUS",
+    "user_id": "2"
+}
+
+###
+POst http://localhost:8000/role/role_api
+Content-Type: application/json
+
+{
+    "name": "Admin"
+}
+
+###
+get http://localhost:8000/user/user_api
+Content-Type:  application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwicm9sZSI6MSwiY3JlYXRlZF9hdCI6IjIwMjItMDItMTMgMDk6MTA6NDAuMTk1MDgyIn0.RTAUTlN6TXRhXFwUjfyETOdtFU3GiAaeliJv-2_dLuk
+
+###
+post http://localhost:8000/user/user_api
+Content-Type:  application/json
+
+{
+    "email": "nguyentri123.alan@gmail.com",
+    "password": "123",
+    "first_name": "Nguyen",
+    "last_name": "Hoang",
+    "telephone": "0938671192",
+    "bdate": "2001-04-04",
+    "avatar": "https://firebasestorage.googleapis.com/v0/b/e-commerce-d5a2e.appspot.com/o/users%2Fbase64-1624787647071660114429.png0.6559155685047113?alt=media&token=882c7a40-0e92-4b88-8edd-4972271c3935",
+    "role_id": "2",
+    "gender": "male",
+    "country": "Vietnam"
+}
+
+###
+post http://localhost:8000/user/user_api
+Content-Type:  application/json
+
+{
+    "email": "nguyenductri04042001@gmail.com",
+    "password": "123",
+    "first_name": "Nguyen",
+    "last_name": "Tri",
+    "telephone": "09386712",
+    "role_id": "2"
+}
+
+###
+post http://localhost:8000/user/user_api
+Content-Type:  application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwicm9sZSI6MSwiY3JlYXRlZF9hdCI6IjIwMjItMDItMTMgMDk6MTA6NDAuMTk1MDgyIn0.RTAUTlN6TXRhXFwUjfyETOdtFU3GiAaeliJv-2_dLuk
+
+{
+    "email": "19110302@student.hcmute.edu.vn",
+    "password": "123",
+    "first_name": "Nguyen",
+    "last_name": "Tris",
+    "telephone": "093867122",
+    "role_id": "2"
+}
+
+###
+post http://localhost:8000/user/user_api
+Content-Type:  application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwicm9sZSI6MSwiY3JlYXRlZF9hdCI6IjIwMjItMDItMTMgMDk6MTA6NDAuMTk1MDgyIn0.RTAUTlN6TXRhXFwUjfyETOdtFU3GiAaeliJv-2_dLuk
+
+{
+    "email": "1abc@student.hcmute.edu.vn",
+    "password": "123",
+    "first_name": "Nguyen",
+    "last_name": "Hoang",
+    "telephone": "09386",
+    "role_id": "2"
+}
+
+###
+get http://localhost:8000/user/auth_user
+Content-Type:  application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwicm9sZSI6MSwiY3JlYXRlZF9hdCI6IjIwMjItMDItMTUgMTQ6MzE6NDcuNDEzMTA0In0.1xX7q2_jsR0eFnHd_oliXB_E3XKUavj-hMIBF9KZN3o
+
+###
+get http://localhost:8000/user/profile
+Content-Type:  application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwicm9sZSI6MSwiY3JlYXRlZF9hdCI6IjIwMjItMDItMTUgMTQ6MzE6NDcuNDEzMTA0In0.1xX7q2_jsR0eFnHd_oliXB_E3XKUavj-hMIBF9KZN3o
+
+###
+post http://localhost:8000/user/auth_user
+Content-Type:  application/json
+
+{
+    "email": "nguyentri.alan@gmail.com",
+    "password": "123"
+}
+
+###
+post http://localhost:8000/user/login_google
+Content-Type:  application/json
+
+{
+    "email": "nguyentri.alan@gmail.com"
+}
+
+###
+post http://localhost:8000/user/auth_user
+Content-Type:  application/json
+
+{
+    "email": "dsajfkdfj",
+    "password": "dsfjsdk"
+}
+###
+post http://localhost:8000/user/auth_user
+Content-Type:  application/json
+
+{
+    "email": "nguyenductri04042001@gmail.com",
+    "password": "123"
+}
+
+
+###
+put http://localhost:8000/user/auth_user
+Content-Type:  application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MX0.E9Wh7K5b5Lxmq_Pyx1fBIpRU5jrcyPuabt4WFJN2PSE
+
+{
+    "old_password": "123",
+    "new_password": "1234"
+}
+
+###
+get http://localhost:8000/category/category_api
+Content-Type:  application/json
+
+###
+POST http://localhost:8000/category/category_api
+Content-Type:  application/json
+
+{
+    "name": "Shoes",
+    "description": "12121"
+}
+
+###
+put http://localhost:8000/category/category_api
+Content-Type:  application/json
+
+{
+    "id": "2",
+    "name": "Laptop",
+    "description": "Newest laptop"
+}
+
+###
+DELETE http://localhost:8000/category/category_api?id=1
+Content-Type:  application/json
+
+###
+get http://localhost:8000/user_address/user_address_api
+Content-Type:  application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6Miwicm9sZSI6Mn0._b9GbhF2pCxviLoYpdTdwPFMuo_bWOubneGCdFLtbsg
+
+###
+post http://localhost:8000/user_address/user_address_api
+Content-Type:  application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwicm9sZSI6MX0.p56_rxpM749sz2fpgEICTwwSID5k9dk-r2jCmpse8ng
+
+{
+    "user_id": "2",
+    "address": "Thủ Đức"
+}
+
+###
+GET http://localhost:8000/user_address/user_side
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6Miwicm9sZSI6Mn0._b9GbhF2pCxviLoYpdTdwPFMuo_bWOubneGCdFLtbsg
+
+###
+post http://localhost:8000/user_address/user_side
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwicm9sZSI6MX0.p56_rxpM749sz2fpgEICTwwSID5k9dk-r2jCmpse8ng
+
+{
+    "address": "ABC"
+}
+
+
+###
+put http://localhost:8000/user_address/user_side
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwicm9sZSI6MX0.p56_rxpM749sz2fpgEICTwwSID5k9dk-r2jCmpse8ng
+
+{
+    "id": "2",
+    "address": "Thu Duc"
+}
+
+###
+get http://localhost:8000/product/product_api
+Content-Type: application/json
+
+###
+get http://localhost:8000/product/dashboard
+Content-Type: application/json
+
+###
+post http://localhost:8000/product/product_api
+Content-Type: application/json
+
+{
+    "name": "Women's Air Force",
+    "description": "Test Product",
+    "price": "2600000",
+    "category_id": "4",
+    "distributor_id": "3"
+}
+
+###
+get http://localhost:8000/product/get_product?id=1
+Content-Type: application/json
+
+###
+get http://localhost:8000/product_image/get_images?id=1
+Content-Type: application/json
+
+###
+post http://localhost:8000/product/product_api
+Content-Type: application/json
+
+{
+    "name": "Rog Stix G15",
+    "description": "Test Product",
+    "price": "25000000.0",
+    "category_id": "2",
+    "distributor_id": "1"
+}
+
+###
+get http://localhost:8000/product_image/product_image_api
+Content-Type: application/json
+
+###
+post http://localhost:8000/product_image/product_image_api
+Content-Type: application/json
+
+{
+    "product_id": "3",
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e777c881-5b62-4250-92a6-362967f54cca/air-force-1-07-shoe-NMmm1B.png"
+}
+
+###
+put http://localhost:8000/product_image/thumnail
+Content-Type: application/json
+
+{
+    "id": "5"
+}
+
+###
+get http://localhost:8000/discount/discount_api
+Content-Type: application/json
+
+
+###
+post http://localhost:8000/discount/discount_api
+Content-Type: application/json
+
+{
+    "product_id": "3",
+    "discount_percent": "30"
+}
+
+###
+put http://localhost:8000/discount/discount_api
+Content-Type: application/json
+
+{
+    "id": "1",
+    "product_id": "1",
+    "discount_percent": "25.6",
+    "active": false
+}
+
+###
+get http://localhost:8000/shopping_session/shopping_session_api
+Content-Type: application/json
+
+###
+post http://localhost:8000/shopping_session/shopping_session_api
+Content-Type: application/json
+
+{
+    "user_id": "5"
+}
+
+###
+post http://localhost:8000/cart/cart_api
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwicm9sZSI6MSwiY3JlYXRlZF9hdCI6IjIwMjItMDItMjMgMDk6MzY6MTYuNTA3OTk1In0.8P40fje0IneA1jqgSnQejYrkmcFEJO9wjzJcdllxn5s
+
+{
+    "product_id": "1",
+    "quantity": "1"
+}
+
+###
+get http://localhost:8000/cart/info_cart
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwicm9sZSI6MSwiY3JlYXRlZF9hdCI6IjIwMjItMDItMjMgMDk6MzY6MTYuNTA3OTk1In0.8P40fje0IneA1jqgSnQejYrkmcFEJO9wjzJcdllxn5s
+
+###
+delete http://localhost:8000/cart/cart_api?id=1
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwicm9sZSI6MSwiY3JlYXRlZF9hdCI6IjIwMjItMDItMTMgMjI6NDM6MDIuMDk5NTMwIn0.JcVtiq8o2-mrcH89gMqLXdZMr3yzZ5rk_njD3YrXY9w
+
+###
+get http://localhost:8000/payment_type/payment_type_api
+Content-Type: application/json
+
+###
+post http://localhost:8000/payment_type/payment_type_api
+Content-Type: application/json
+
+{
+    "type_name": "Momo",
+    "description": "Cash On Momo App"
+}
+
+###
+put http://localhost:8000/payment_type/payment_type_api
+Content-Type: application/json
+
+{
+    "id": "1",
+    "type_name": "Cash On Delivery",
+    "description": "A method of doing business in which a company will transport goods to a customer and take payment for the goods at the time they are given to the customer:"
+}
+
+###
+get http://localhost:8000/banner/banner_api
+Content-Type: application/json
+
+###
+post http://localhost:8000/banner/banner_api
+Content-Type: application/json
+
+{
+    "image": "https://phongvu.vn/cong-nghe/wp-content/uploads/2019/05/26.acer-helios-300-2019-banner-2.jpg",
+    "distributor_id": "2"
+}
+
+
+###
+GET http://localhost:8000/product/category?id=2&&index=1
+Content-Type: application/json
+
+###
+GET http://localhost:8000/category/get?id=2
+Content-Type: application/json
